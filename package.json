@@ -1,0 +1,13 @@
+{
+  "name": "finz-smart-finance-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev:netlify": "npx netlify dev"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.1"
+  }
+}
